@@ -1,0 +1,102 @@
+<!DOCTYPE html>  
+<html lang="fr">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Carte Animée</title>  
+    <style>  
+        body {  
+            display: flex;  
+            flex-direction: column;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh;  
+            background-color: #f0f0f0;  
+            margin: 0;  
+        }  
+
+        .navbar {  
+            background-color: #333;  
+            color: #fff;  
+            width: 100%;  
+            padding: 10px 20px;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+            position: absolute;  
+            top: 0;  
+        }  
+
+        .navbar ul {  
+            list-style-type: none;  
+            padding: 0;  
+        }  
+
+        .navbar ul li {  
+            display: inline;  
+            margin-right: 20px;  
+        }  
+
+        .navbar ul li a {  
+            color: white;  
+            text-decoration: none;  
+            font-weight: bold;  
+        }  
+
+        .navbar ul li a:hover {  
+            text-decoration: underline;  
+        }  
+
+        .card {  
+            background-color: white;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+            width: 300px;  
+            padding: 20px;  
+            text-align: center;  
+            transition: box-shadow 0.3s ease;  
+        }  
+
+        .card:hover {  
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);  
+        }  
+
+        .card h2 {  
+            margin: 0 0 10px;  
+        }  
+
+        .card p {  
+            color: #555;  
+        }  
+
+        footer {  
+            background-color: #333;  
+            color: white;  
+            text-align: center;  
+            padding: 10px 0;  
+            position: relative;  
+            bottom: 0;  
+            width: 100%;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+    <div class="navbar">  
+        <ul>  
+            <li><a href="#">Accueil</a></li>  
+            <li><a href="#">À propos</a></li>  
+            <li><a href="#">Services</a></li>  
+            <li><a href="#">Contact</a></li>  
+        </ul>  
+    </div>  
+
+    <div class="card">  
+        <h2>Titre de la Carte</h2>  
+        <p>Ceci est une carte avec une animation simple au survol.</p>  
+    </div>  
+
+    <footer>  
+        <p>&copy; 2025 Mon Entreprise. Tous droits réservés/by cmk lucas.</p>  
+    </footer>  
+
+</body>  
+</html>   

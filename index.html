@@ -1,0 +1,48 @@
+<!DOCTYPE html>  
+<html lang="fr">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Carte Animée</title>  
+    <style>  
+        body {  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh;  
+            background-color: #f0f0f0;  
+            margin: 0;  
+        }  
+
+        .card {  
+            background-color: white;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+            width: 300px;  
+            padding: 20px;  
+            text-align: center;  
+            transition: box-shadow 0.3s ease;  
+        }  
+
+        .card:hover {  
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);  
+        }  
+
+        .card h2 {  
+            margin: 0 0 10px;  
+        }  
+
+        .card p {  
+            color: #555;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+    <div class="card">  
+        <h2>Titre de la Carte</h2>  
+        <p>Ceci est une carte avec une animation simple au survol.</p>  
+    </div>  
+
+</body>  
+</html>  
